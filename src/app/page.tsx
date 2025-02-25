@@ -45,11 +45,11 @@ export default function Home() {
                 <Github className="w-5 h-5 mr-2" />
                 Star on GitHub
               </a>
-              <a href="/roadmap"
+              <Link href="/roadmap"
                  className="border border-slate-600 hover:border-emerald-400 px-8 py-4 rounded-lg flex items-center text-lg font-semibold">
                 <Terminal className="w-5 h-5 mr-2" />
                 View Roadmap
-              </a>
+              </Link>
             </div>
           </div>
         </section>
