@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router';
 import { Layout } from './components/Layout';
-import { Home } from './pages/Home';
-import { Manifesto } from './pages/Manifesto';
-import { Docs } from './pages/Docs';
-import { Changelog } from './pages/Changelog';
-import { Roadmap } from './pages/Roadmap';
-import { Support } from './pages/Support';
-import { Contact } from './pages/Contact';
+import Home from './app/page';
+import Manifesto from './app/manifesto/page';
+import Docs from './app/docs/page';
+import Changelog from './app/changelog/page';
+import Roadmap from './app/roadmap/page';
+import Support from './app/support/page';
+import Contact from './app/contact/page';
 
 function App() {
   return (
