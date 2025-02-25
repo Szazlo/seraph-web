@@ -84,7 +84,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             </div>
           </div>
           <div className="border-t border-slate-800 mt-12 pt-8 text-center text-slate-400">
-            <p>&copy; {new Date().getFullYear()} Seraph. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} A Cavson product. All rights reserved.</p>
           </div>
         </div>
       </footer>

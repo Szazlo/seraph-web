@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Seraph - Modern Server Management',
-  description: 'Modern server management for the cloud era.',
+  description: 'Modern server management free and open-source.',
 }
 
 export default function RootLayout({
