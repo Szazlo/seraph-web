@@ -65,6 +65,7 @@ export default function Support() {
               <button
                 type="submit"
                 className="w-full bg-slate-700 hover:bg-slate-600 px-6 py-3 rounded-lg flex items-center justify-center text-lg font-semibold"
+                disabled
               >
                 <Heart className="w-5 h-5 mr-2" />
                 Subscribe
