@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router';
 import { Layout } from './components/Layout';
 import { Home } from './pages/Home';
 import { Manifesto } from './pages/Manifesto';
@@ -12,7 +12,8 @@ import { Contact } from './pages/Contact';
 function App() {
   return (
     <Layout>
-      <Routes>
+      <BrowserRouter>
+        <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/manifesto" element={<Manifesto />} />
         <Route path="/docs" element={<Docs />} />
@@ -21,6 +22,7 @@ function App() {
         <Route path="/support" element={<Support />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      </BrowserRouter>
     </Layout>
   );
 }
