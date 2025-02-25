@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { Terminal, Server, Container, Shield, Github, Command, Boxes, Cpu, Heart, Coffee, Mail, ExternalLink } from 'lucide-react';
 import { useState } from 'react';
 
